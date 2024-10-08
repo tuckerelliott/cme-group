@@ -53,8 +53,8 @@ header nav p {
   line-height: 1;
 }
 
-header nav a.button:any-link {
-  background-color: #FFF;
+header nav a:any-link {
+  color: currentcolor;
 }
 
 /* hamburger */
@@ -227,13 +227,14 @@ header nav .nav-sections ul > li > ul > li {
     display: flex;
     gap: 2em;
     margin: 0;
-    font-size: var(--body-font-size-xs);
+    font-size: 1rem;
   }
 
   header nav .nav-sections .default-content-wrapper > ul > li {
     flex: 0 1 auto;
     position: relative;
     font-weight: 500;
+    text-transform: uppercase;
   }
 
   header nav .nav-sections .default-content-wrapper > ul > li > ul {
